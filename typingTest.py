@@ -6,10 +6,10 @@ def test_function(a: int, b: Optional[int]) -> Union[int, float, None]:
     if b != 0:
         return a / b
     
-    return
+    return None
 
 def test_function2(input_val:list[str],index: int) -> Union[str, int]:
-    return (input_val[index],index)
+    return (input_val[str],index)
     
 
 return_val = test_function(1, 2)

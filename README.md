@@ -3,9 +3,9 @@
 > uvicorn test:app
 
 # Discription of files:
->- *venv --> vitrual environment setup*
+>- *pipenv --> vitrual environment setup*
 
->- *requirements --> required python libraries*
+>- *pipenv install --> required python libraries*
 
 >- *test --> main application*
 
